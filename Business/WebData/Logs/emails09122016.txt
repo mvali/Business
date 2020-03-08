@@ -1,0 +1,96 @@
+
+--------------------------------------------------------------------------------
+09/12/2016 04:59:52.49   -    To:vali_my@yahoo.com_From:"MVC Website" <vali.my@gmail.com>
+Subject:Email from Contact Us page
+Body:Hello Admin<br /><br />
+The following message was posted from website contact-us page:<br />
+Name: aa<br />
+Email: aa@a.aa<br />
+Message: asasas<br />
+<br />
+Tracking info:<br />
+IP: ::1<br />
+Referrer: localhost
+<br /><br />
+SoftwareDev Team
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 05:00:51.78   -    To:vali_my@yahoo.com_From:"MVC Website" <vali.my@gmail.com>
+Subject:Email from Contact Us page
+Body:Hello Admin<br /><br />
+The following message was posted from website contact-us page:<br />
+Name: aa<br />
+Email: aa@a.aa<br />
+Message: asasas<br />
+<br />
+Tracking info:<br />
+IP: ::1<br />
+Referrer: localhost
+<br /><br />
+SoftwareDev Team
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 05:00:54.48   -    To:vali_my@yahoo.com_From:"MVC Website" <vali.my@gmail.com>
+Subject:Email from Contact Us page
+Body:Hello Admin<br /><br />
+The following message was posted from website contact-us page:<br />
+Name: aa<br />
+Email: aa@a.aa<br />
+Message: asasas<br />
+<br />
+Tracking info:<br />
+IP: ::1<br />
+Referrer: localhost
+<br /><br />
+SoftwareDev Team
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 05:14:02.57   -    To:vali_my@yahoo.com_From:"MVC Website" <vali.my@gmail.com>
+Subject:Email from Contact Us page
+Body:Hello Admin<br /><br />
+The following message was posted from website contact-us page:<br />
+Name: as<br />
+Email: aa@a.aa<br />
+Message: asaaasas<br />
+<br />
+Tracking info:<br />
+IP: ::1<br />
+Referrer: localhost
+<br /><br />
+SoftwareDev Team
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 05:14:42.22   -    To:vali_my@yahoo.com_From:"MVC Website" <vali.my@gmail.com>
+Subject:Email from Contact Us page
+Body:Hello Admin<br /><br />
+The following message was posted from website contact-us page:<br />
+Name: asasas<br />
+Email: aa@a.aa<br />
+Message: asasas<br />
+<br />
+Tracking info:<br />
+IP: ::1<br />
+Referrer: localhost
+<br /><br />
+SoftwareDev Team
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 05:17:21.66   -    To:vali_my@yahoo.com_From:"MVC Website" <vali.my@gmail.com>
+Subject:Email from Contact Us page
+Body:Hello Admin<br /><br />
+The following message was posted from website contact-us page:<br />
+Name: aa<br />
+Email: aa@a.aaa<br />
+Message: asasasas<br />
+<br />
+Tracking info:<br />
+IP: ::1<br />
+Referrer: localhost
+<br /><br />
+SoftwareDev Team
+Uri: http://localhost:1367/contact/contactajax?language=en-us

@@ -1,0 +1,30 @@
+﻿@{
+    var routeValues = this.ViewContext.RouteData.Values;
+    var controller = routeValues["controller"] as string;
+    var action = routeValues["action"] as string;
+}
+<div class="top-bar">
+    <div class="container">
+        <div class="row" id="top-bar">
+            <div class="col-sm-4 col-xs-4">
+                <div class="top-number"><p><i class="fa fa-phone-square"></i>@Resources.Top.Phone</p></div>
+            </div>
+            <div class="col-sm-2 col-xs-2 nowrap-txt">
+                <a href="@Url.Action(@action, @controller, new { language = "ro" }, null)" title="@Resources.Top.LangChangeRo"><img src="~/Assets/Images/flags/ro.png" /></a>&nbsp;&nbsp;
+                <a href="@Url.Action(@action, @controller, new { language = "en" }, null)" title="@Resources.Top.LangChangeEng"><img src="~/Assets/Images/flags/gb.png" /></a>
+            </div>
+            <div class="col-sm-6 col-xs-6">
+                <div class="social">
+                    <ul class="social-share">
+                        <li><div class="fa-search-front"></div></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                    </ul>
+                    @Html.Action("SearchTop","Search")
+                </div>
+            </div>
+        </div>
+    </div><!--/.container-->
+</div>

@@ -1,0 +1,18 @@
+﻿<footer id="footer" class="midnight-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 copy-right">
+                &copy; @Html.Raw(Resources.Footer.Copyright)
+            </div>
+            <div class="col-sm-6">
+                <ul class="pull-right">
+                    <li><a href="~/">@Resources.Footer.Home</a></li>
+                    <li>@Html.ActionLink(@Resources.Footer.About, "About", "Home")</li>
+                    <li><a href="#">@Resources.Footer.Faq</a></li>
+                    <li>@Html.ActionLink(@Resources.Footer.ContactUs, "Index", "Contact")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<a href="#" title="@Resources.Footer.Movetotop" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>

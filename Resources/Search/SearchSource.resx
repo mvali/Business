@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Content1" xml:space="preserve">
+    <value>When did you last go out and run.. couple miles? Yes now.. in February when nature is starting to refresh. </value>
+  </data>
+  <data name="Content10" xml:space="preserve">
+    <value>It’s early June in Cincinnati and the city is steamy after a recent rain. Elderly women fan themselves at bus stops. Tattooed tweakers panhandle in Fountain Square. Men in sweat-stained oxford shirts line up for lunch at Skyline Chili. Downtown is threadbare and lightly populated — everyone is either in their temperature-controlled offices or sitting in their cars, windows up, AC blasting, immune to the outside world.
+
+Like many Midwestern cities, Cincinnati's public transit system has seen better times. On an average day, only 55,000 trips in Cincinnati are made on public buses — the city’s only mode of public transportation — in a metropolitan region of over 2 million people. The city ranks 46th among the 50 most populous cities in terms of ridership. And public transit use continues to fall: recently, the city has considered downsizing to smaller buses on some of its routes.</value>
+  </data>
+  <data name="Content2" xml:space="preserve">
+    <value>You may wonder what have this 2 words in common? Nothing at first look. But snow is protecting the green when Santa Claus is comming from beer. Yes in March.. he is partying all year :D</value>
+  </data>
+  <data name="Content3" xml:space="preserve">
+    <value>Andy Baio recruited some of the web’s most fascinating creators to the Portland festival he runs with Andy McMillan, and the result is new attention for some criminally under-viewed projects.
+
+Nearly everything I saw this year was something I wanted to share with a friend — you can check out the entire lineup here. Below are some of my very favorite things, any one which would happily occupy a weekend afternoon.</value>
+  </data>
+  <data name="Content4" xml:space="preserve">
+    <value>"No one expects the lady code troll" — thus began Jenn Schiffer’s rollicking presentation about her series of Medium satires, which make absurd arguments about software development that bait men — and it is almost always men — into rageful fits of mansplaining. The essays are hilarious, and the responses are often sublime — although they also illustrate the toxic masculinity of many coding subcultures, as Schiffer noted in her talk’s powerful conclusion.</value>
+  </data>
+  <data name="Content5" xml:space="preserve">
+    <value>The rollout of bots by companies including Facebook and Google this year has generally been underwhelming. But while tech giants work to determine how AI can become the next multibillion-dollar industry, a host of hackers are working to create Twitter bots that are absurdist, artsy, and beautiful.</value>
+  </data>
+  <data name="Content6" xml:space="preserve">
+    <value>The introduction of bots to Facebook and other platforms has been overhyped — and the bots themselves often aren't very good, Facebook Messenger chief David Marcus said today. Speaking at the TechCrunch Disrupt conference in San Francisco, Marcus made some of his first public comments about bots since Facebook launched the platform in April. "It got really overhyped really, really quickly," Marcus said. What's more, he said, many of the first bots to hit the platform weren't nearly as good as the native apps they were designed to replace.
+
+There are now more than 30,000 bots on the platform, Marcus said, up from 11,000 in July. But bots have suffered from a perception that they are not nearly as useful as they were advertised to be earlier this year by tech giants including Facebook, Google, and Microsoft.</value>
+  </data>
+  <data name="Content7" xml:space="preserve">
+    <value>Marcus acknowledged that the two weeks Facebook gave developers to build bots before its F8 developer conference this year was "probably not" enough time for them to create great experiences. But he said he was satisfied with their progress to date. "This is a long journey, and you have to start somewhere," he said.
+
+Marcus made his comments during a talk in which he also announced to an update to the bot platform which lets users pay bots using credit card information stored with Facebook for the first time. The update also allows developers to insert web views into their bots so they can bring web content into the bot. That might include lists of flights, new media types, or even games, according to TechCrunch, which interviewed Marcus before the event.
+
+The app also has more than 300 million people using its audio and video calling features every month, Marcus said.</value>
+  </data>
+  <data name="Content8" xml:space="preserve">
+    <value>Instagram started allowing certain high-profile users to filter specific words out of their comments section earlier this summer, and today, the company is rolling that feature out to everyone.
+
+Users can specify which custom words they want hidden from their comments and also turn on the "hide inappropriate comments" feature, which hides comments containing words that are typically flagged as inappropriate. This can all be accessed by clicking the gear icon. Instagram is also updating the way it displays comments: they’ll be ranked algorithmically to show the most relevant comments first, as opposed to the two most recent.</value>
+  </data>
+  <data name="Content9" xml:space="preserve">
+    <value>A philanthropist asked a racecar designer to make an all-terrain vehicle suitable for humanitarian missions in Africa. The result was the Ox, “the world’s first flatpack truck” — meaning it can be packed up into a flat box and shipped like Ikea furniture.
+
+The truck is absurdly simple to assemble: its designers claim that three people can break it down into 60 parts in just 12 hours. (Apparently no one involved with the truck's creation has ever tried to put together the Liatorp.) This allows the Ox to be shipped cheaply to developing nations in Africa, where aid workers can use it to transport water, grain, fertilizer, and building materials, the company says. The boxy truck can seat 13 people and carry up to 4,100 pounds of cargo.
+
+The Ox is the brainchild of Torquil Norman, a philanthropist who runs the Global Vehicle Trust, and Gordon Murray, the South African engineer who helped create the McLaren F1. 
+It’s also reminiscent of the Africar, a lightweight, all-terrain vehicle released in the 1980s that never took off. Norman says that "this project shares some of the aims of that vehicle, but its execution is radically different."
+
+“Ox was just a dream six years ago," he added, "but it is now a realistic prospect for production with working prototypes that have completed a comprehensive testing program.”</value>
+  </data>
+  <data name="Name1" xml:space="preserve">
+    <value>Spring is knocking</value>
+  </data>
+  <data name="Name10" xml:space="preserve">
+    <value>TRAIN TO NOWHERE</value>
+  </data>
+  <data name="Name2" xml:space="preserve">
+    <value>Green and Snow</value>
+  </data>
+  <data name="Name3" xml:space="preserve">
+    <value>Our favorite discoveries from the internet's best festival</value>
+  </data>
+  <data name="Name4" xml:space="preserve">
+    <value>NO ONE EXPECTS THE LADY CODE TROLL</value>
+  </data>
+  <data name="Name5" xml:space="preserve">
+    <value>Bots</value>
+  </data>
+  <data name="Name6" xml:space="preserve">
+    <value>Bots are overhyped and underpowered</value>
+  </data>
+  <data name="Name7" xml:space="preserve">
+    <value>BOTS SUFFER FROM A PERCEPTION THAT THEY ARE NOT AS USEFUL AS ADVERTISED</value>
+  </data>
+  <data name="Name8" xml:space="preserve">
+    <value>Instagram is now letting everyone filter abusive words out of their comments</value>
+  </data>
+  <data name="Name9" xml:space="preserve">
+    <value>Meet the world's first vehicle that can be packed up and shipped like Ikea furniture</value>
+  </data>
+  <data name="Type1" xml:space="preserve">
+    <value>blog</value>
+  <comment>@Invariant</comment></data>
+  <data name="Type10" xml:space="preserve">
+    <value>cod</value>
+  <comment>@Invariant</comment></data>
+  <data name="Type2" xml:space="preserve">
+    <value>blog</value>
+  <comment>@Invariant</comment></data>
+  <data name="Type3" xml:space="preserve">
+    <value>blog</value>
+  <comment>@Invariant</comment></data>
+  <data name="Type4" xml:space="preserve">
+    <value>blog</value>
+  <comment>@Invariant</comment></data>
+  <data name="Type5" xml:space="preserve">
+    <value>cod</value>
+  <comment>@Invariant</comment></data>
+  <data name="Type6" xml:space="preserve">
+    <value>cod</value>
+  <comment>@Invariant</comment></data>
+  <data name="Type7" xml:space="preserve">
+    <value>cod</value>
+  <comment>@Invariant</comment></data>
+  <data name="Type8" xml:space="preserve">
+    <value>cod</value>
+  <comment>@Invariant</comment></data>
+  <data name="Type9" xml:space="preserve">
+    <value>cod</value>
+  <comment>@Invariant</comment></data>
+</root>

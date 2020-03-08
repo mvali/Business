@@ -1,0 +1,36 @@
+﻿@model Models.SearchVM
+<section class="pricing-page">
+    <div class="container">
+        <div class="">
+            <div class="center">
+                <h2>@Resources.Search.SearchResults.ResultsTitle</h2>
+                <p>@Html.Raw(Resources.Search.SearchResults.ResultsDescription.Replace("{NAME}", @Utils.TempData("name", TempData)).Replace("{COUNT}", Model.results.Count().ToString()) )</p>
+            </div>
+            @if (Model.results.Count() == 0)
+            {
+                <div class="status alert alert-info">@Resources.Search.SearchResults.Items0</div>
+            }
+            @Html.ValidationSummary(false, Resources.Error.summary, new { @class = "validate col-sm-offset-1 status alert alert-info" })
+
+            <div class="search">
+                @using (Html.BeginForm("ContactAjax", "Contact"))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.TextBoxFor(x => x.param.Name, new { @class = "search-form", @autocomplete = "off", @placeholder = @Resources.Top.Search })
+                    <i class="fa fa-search"></i>
+                }
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="blog_archieve">
+                        @foreach (var item in Model.results)
+                        {
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i> @item.Name <span class="pull-right">(@item.Id)</a><p>@Html.Raw(item.Content)</p></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div><!--/.archieve-->
+
+    </div>
+</section>

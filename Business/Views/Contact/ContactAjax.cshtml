@@ -1,0 +1,68 @@
+﻿@model Models.Contact
+<section id="contact-page">
+    <div class="container" id="contactdiv">
+        <div class="center">
+            <h2>@Resources.Contact.ContactAjax.ContactTitle</h2>
+            <p class="lead">@Resources.Contact.ContactAjax.ContactContent</p>
+        </div>
+        <div class="row contact-wrap">
+            <div class="contact-form">
+                @if (Utils.TempData("Status", TempData) == "emailSent")
+                {
+                    <div class="col-sm-offset-1 status alert alert-success">@Resources.Contact.ContactAjax.EmailSent</div>
+                }
+                @Html.ValidationSummary(false, Resources.Error.summary, new { @class = "validate col-sm-offset-1 status alert alert-info" })
+                @{
+                    var culture = System.Threading.Thread.CurrentThread.CurrentUICulture.Name.ToLowerInvariant();
+                    var options = new AjaxOptions()
+                    {
+                        HttpMethod = "Post",
+                        InsertionMode = InsertionMode.ReplaceWith,
+                        UpdateTargetId = "contactdiv"
+                    };
+                }
+                @using (Ajax.BeginForm("ContactAjax", "Contact", new { language = culture }, options))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Name, @Resources.Contact.ContactAjax.Name)
+                            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Name, null, new { @class = "validate" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Email, @Resources.Contact.ContactAjax.Email)
+                            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Email, null, new { @class = "validate" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Phone, @Resources.Contact.ContactAjax.Phone)
+                            @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Phone, null, new { @class = "validate" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Company, @Resources.Contact.ContactAjax.Company)
+                            @Html.TextBoxFor(x => x.Company, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Company, null, new { @class = "validate" })
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Subject, @Resources.Contact.ContactAjax.Subject)
+                            @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Subject, null, new { @class = "validate" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Message, @Resources.Contact.ContactAjax.Message)
+                            @Html.TextAreaFor(x => x.Message, new { @class = "form-control", @rows = "8" })
+                            @Html.ValidationMessageFor(x => x.Message, null, new { @class = "validate" })
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary btn-lg" value="@Resources.Contact.ContactAjax.BtnSubmit" />
+                        </div>
+                    </div>
+                }
+                </div>
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#contact-page-->

@@ -1,0 +1,32 @@
+
+--------------------------------------------------------------------------------
+09.19.2016 05:29:42.94   -    To:vali.my@gmail.com_From:"MVC Website Business" <admin@softwaredev.ro>
+Subject:Email from Contact Us page
+Body:Hello Admin<br /><br />
+The following message was posted from website contact-us page:<br />
+Name: Vali<br />
+Email: aaaa@asasas.aa<br />
+Message: qsdqsdqwsd<br />
+<br />
+Tracking info:<br />
+IP: ::1<br />
+Referrer: localhost
+<br /><br />
+SoftwareDev Team
+Uri: http://localhost:1367/contact/contactajax?language=ro-ro
+
+--------------------------------------------------------------------------------
+09.19.2016 05:34:48.63   -    To:vali.my@gmail.com_From:"MVC Website Business" <admin@softwaredev.ro>
+Subject:Email from Contact Us page
+Body:Hello Admin<br /><br />
+The following message was posted from website contact-us page:<br />
+Name: test<br />
+Email: vali.my@tahoo.com<br />
+Message: sdsadsd<br />
+<br />
+Tracking info:<br />
+IP: ::1<br />
+Referrer: localhost
+<br /><br />
+SoftwareDev Team
+Uri: http://localhost:1367/contact/contactajax?language=ro-ro

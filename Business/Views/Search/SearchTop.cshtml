@@ -1,0 +1,9 @@
+﻿@model Models.SearchCriteria
+<div class="search">
+@using (Html.BeginForm("SearchResults", "Search"))
+{
+    @Html.AntiForgeryToken()
+    @Html.TextBoxFor(x => x.Name, new { @class = "search-form", @autocomplete="off", @placeholder=@Resources.Top.Search })
+    <button type="submit" class="fa fa-search fa-button" />
+}
+</div>

@@ -1,0 +1,196 @@
+
+--------------------------------------------------------------------------------
+09/12/2016 04:50:03.15   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\035c120e-bd67-4ecd-affe-26686686b9cc.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:50:07.23   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\8863c313-c90a-44f0-8e7c-c06c1fc65662.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:50:11.96   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\dc79702b-cfcc-42af-abba-dc3465a78404.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:53:49.99   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\9d04b8ac-298d-4c59-bcaa-57d9b203ee76.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:53:54.28   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\30c07a5a-37c7-436f-8ba1-83cec40c9f87.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:53:55.80   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\ca5ea673-01b9-46c6-88fc-9056377360d8.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:56:45.82   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\81219f5e-767e-4815-8d6c-3e622386fe30.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:56:48.08   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\513e20a0-cfe1-4abf-a054-575746b65621.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:56:48.94   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\7659d30b-8066-461b-8594-565e66e678da.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:56:49.32   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\45542bb5-8ef4-42e2-af76-68b1f231315d.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:56:49.76   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\9cacc83a-e061-4f8f-96e1-f70f43390773.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:56:50.46   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\011ca310-0b6f-4793-b371-1a180461a50d.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:56:58.93   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\5080599f-95e1-439b-b781-b371b8532803.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us
+
+--------------------------------------------------------------------------------
+09/12/2016 04:58:02.93   -     ex: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\valentin\documents\visual studio 2015\Projects\Business\Business\WebData\temp\emails\bfb1f64b-1a1a-47a0-b2ec-d222eb968bb7.eml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Net.Mail.SmtpClient.GetFileMailWriter(String pickupDirectory)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=en-us

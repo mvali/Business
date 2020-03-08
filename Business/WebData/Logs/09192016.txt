@@ -1,0 +1,24 @@
+
+--------------------------------------------------------------------------------
+09.19.2016 05:30:49.18   -     ex: System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: <vali.my@gmail.com> No such user here
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=ro-ro
+
+--------------------------------------------------------------------------------
+09.19.2016 05:30:52.83   -     ex: System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: <vali.my@gmail.com> No such user here
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=ro-ro
+
+--------------------------------------------------------------------------------
+09.19.2016 05:33:18.02   -     ex: System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: <vali.my@gmail.com> No such user here
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailServer.EmailSendGo(MailType from, MailType to, String body, String subject, List`1 AttachmentFilePath) in C:\Users\Valentin\Documents\Visual Studio 2015\Projects\Business\Business\Core\EmailServer.cs:line 129
+
+Uri: http://localhost:1367/contact/contactajax?language=ro-ro

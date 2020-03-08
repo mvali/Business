@@ -1,0 +1,33 @@
+﻿<nav class="navbar navbar-inverse" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">@Resources.Nav.ToggleNavigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="~/"><img src="~/Assets/images/logo.png" alt="logo"></a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+                <li @Html.Raw(Utils.ControlerViewIs("Home", "Index", ViewContext) ? "class=\"active\"" : "")><a href="~/">@Resources.Nav.Home</a></li>
+                <li @Html.Raw(Utils.ControlerViewIs("Home", "About", ViewContext) ? "class=\"active\"" : "")>@Html.ActionLink(@Resources.Nav.About, "About", "Home")</li>
+                <li @Html.Raw(Utils.ControlerViewIs("Home", "Services", ViewContext) ? "class=\"active\"" : "")>@Html.ActionLink(@Resources.Nav.Services, "Services", "Home")</li>
+                <li @Html.Raw(Utils.ControlerViewIs("Portfolio", "Index", ViewContext) ? "class=\"active\"" : "")>@Html.ActionLink(@Resources.Nav.Portfolio, "Index", "Portfolio")</li>
+                <li class="dropdown @Html.Raw(Utils.ControlerViewIs("Pages", "", ViewContext) ? "active" : "")">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">@Resources.Nav.Pages <i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink(@Resources.Nav.BlogSingle, "Blog2", "Pages")</li>
+                        <li>@Html.ActionLink(@Resources.Nav.Pricing, "Pricing", "Pages")</li>
+                        <li>@Html.ActionLink(@Resources.Nav.E404, "E404", "Pages")</li>
+                        <li>@Html.ActionLink(@Resources.Nav.ShortCodes, "Shortcodes", "Pages")</li>
+                    </ul>
+                </li>
+                <li>@Html.ActionLink(@Resources.Nav.Blog, "Blog", "Pages")</li>
+                <li @Html.Raw(Utils.ControlerViewIs("Contact", "Index", ViewContext) ? "class=\"active\"" : "")>@Html.ActionLink(@Resources.Nav.Contact, "Index", "Contact")</li>
+            </ul>
+        </div>
+    </div><!--/.container-->
+</nav>
